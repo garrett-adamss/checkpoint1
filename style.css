@@ -1,0 +1,89 @@
+.font-style {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.hero-img {
+    background-image: url(https://images.unsplash.com/photo-1627962479504-8da0e64b2565?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-position: center;
+    background-size: cover;
+    min-height: 70vh;
+}
+
+.section-one {
+    min-height: 40vh;
+}
+textarea {
+    resize: none;
+  }
+.form-card {
+    background-color: whitesmoke;
+}
+
+.form-size {
+    min-width: 100%;
+}
+
+.card-height {
+    height: 25em;
+}
+.input-size{
+    max-width: 300px;
+}
+.input-half{
+    max-width: 150px;
+}
+.section-two {
+    min-height: 70vh;
+}
+
+.text-shadow {
+    text-shadow: 1px 1px 8px #3a3a3a;
+    ;
+}
+
+@media screen and (min-width: 768px) {
+    .floating-card {
+        transform: translateY(100px);
+    }
+}
+.section-three{
+    min-height: 45vh;
+    background-color: rgb(184, 183, 183);
+}
+.section-four{
+    min-height: 40vh;
+}
+.section-five{
+    min-height: 20vh;
+    background-color: rgb(184, 183, 183);
+}
+.top-space{
+    margin-top: 8vh;
+    margin-left: 10px;
+}
+.card-sizing{
+    min-height: 18em;
+    min-width: 18em;
+}
+.card-small{
+    max-height: 15em;
+    max-width: 15em;
+}
+
+@media screen and (min-width: 768px) {
+    .relative {
+        position: relative;
+        width: 110%;
+        height: 45vh;
+        border: 3px solid #73AD21;
+      }
+    .card-fit{
+        /* max-height: 35vh; */
+        min-height: 200px;
+        min-width: 200px;
+    }
+}
+.big-card{
+    min-height: 275px;
+    min-width: 275px;
+}
