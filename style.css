@@ -33,8 +33,12 @@ textarea {
     max-width: 300px;
 }
 
+.middle-size {
+    max-width: 200px;
+}
+
 .input-half {
-    max-width: 150px;
+    max-width: 50px;
 }
 
 .section-two {
@@ -86,7 +90,7 @@ textarea {
         position: relative;
         width: 110%;
         height: 45vh;
-        border: 3px solid #73AD21;
+    
     }
 
     .card-fit {
