@@ -12,9 +12,11 @@
 .section-one {
     min-height: 40vh;
 }
+
 textarea {
     resize: none;
-  }
+}
+
 .form-card {
     background-color: whitesmoke;
 }
@@ -26,12 +28,15 @@ textarea {
 .card-height {
     height: 25em;
 }
-.input-size{
+
+.input-size {
     max-width: 300px;
 }
-.input-half{
+
+.input-half {
     max-width: 150px;
 }
+
 .section-two {
     min-height: 70vh;
 }
@@ -46,26 +51,32 @@ textarea {
         transform: translateY(100px);
     }
 }
-.section-three{
+
+.section-three {
     min-height: 45vh;
     background-color: rgb(184, 183, 183);
 }
-.section-four{
+
+.section-four {
     min-height: 40vh;
 }
-.section-five{
+
+.section-five {
     min-height: 20vh;
     background-color: rgb(184, 183, 183);
 }
-.top-space{
+
+.top-space {
     margin-top: 8vh;
     margin-left: 10px;
 }
-.card-sizing{
+
+.card-sizing {
     min-height: 18em;
     min-width: 18em;
 }
-.card-small{
+
+.card-small {
     max-height: 15em;
     max-width: 15em;
 }
@@ -76,14 +87,16 @@ textarea {
         width: 110%;
         height: 45vh;
         border: 3px solid #73AD21;
-      }
-    .card-fit{
+    }
+
+    .card-fit {
         /* max-height: 35vh; */
         min-height: 200px;
         min-width: 200px;
     }
 }
-.big-card{
+
+.big-card {
     min-height: 275px;
     min-width: 275px;
 }
